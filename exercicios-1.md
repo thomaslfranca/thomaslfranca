@@ -64,23 +64,38 @@
 
 ---
 
+### ERJ 145
+![ERJ 145](imagens/RAEerj145.jpg)
 
+| Características | Valor |
+|-----------------|-------|
+| **Frabicante** | [Embraer](https://www.embraer.com) |
+| **Capacidae** | 50 passageiros (classe única) |
+| **Alcance** | 3 706 km |
+| **Velocidade de Cruzeiro** | 750 km/h |
+| **Comprimento** | 29,87 m |
+| **Envergadura** | 20,04 m |
+| **Altura** | 6,75 m |
 
+**Principais Vantagens:** 
+- Excelente preformance regional
+- Opera bem em aeroportos de menor infraestrutura
+- Operação barata
 
+---
 
+### A350-900
+![A350-900](imagens/Air-France-A350-900.webp)
 
-
-
-
-
-
-
-
-
-
-
-
-
+| Características | Valor |
+|-----------------|-------|
+| **Fabricante** | [Airbus](https://www.airbus.com) |
+| **Capacidae** |
+| **Alcance** |
+| **Velocidade de Cruzeiro** |
+| **Comprimento** |
+| **Envergadura** |
+| **Altura** |
 
 
 
