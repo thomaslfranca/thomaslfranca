@@ -15,14 +15,14 @@
 
 ## 👋 Olá! Seja bem-vindo ao meu repositório!
 
-Sou **Thomas L. França**, um entusiasta de tecnologia que está explorando o mundo da programação. Este repositório é meu espaço para aprender, experimentar e compartilhar minha jornada de desenvolvimento.
+Sou **Thomas L. França**, um entusiasta de tecnologia que programa por hobby e curiosidade. Este repositório é meu playground digital para experimentar, criar coisas legais e me divertir com código.
 
 ## 🎯 Sobre Mim
 
-- 🎓 **Estudante** de programação e tecnologia
-- 🔍 **Explorador** sempre curioso sobre novas tecnologias
-- 🚀 **Aprendiz** em busca de conhecimento e crescimento
-- 💡 **Criativo** que gosta de transformar ideias em código
+- 🎮 **Hobbyista** que programa por diversão
+- 🔍 **Curioso** sempre explorando novas tecnologias
+- 🚀 **Criativo** que gosta de transformar ideias em código
+- 💡 **Experimentador** que testa coisas legais por prazer
 
 ## 🛠️ Tecnologias & Ferramentas
 
@@ -66,23 +66,23 @@ Sou **Thomas L. França**, um entusiasta de tecnologia que está explorando o mu
 
 ## 🎯 Projetos em Destaque
 
-### 🚀 [Primeiro Projeto]
-> *Meu primeiro projeto de programação*
-- **Tecnologias:** HTML, CSS, JavaScript
-- **Status:** 🟡 Em desenvolvimento
-- **Objetivo:** Aprender os fundamentos da web
+### 🚀 [Projeto Legal]
+> *Alguma coisa que me deu vontade de fazer*
+- **Tecnologias:** O que eu achar interessante
+- **Status:** 🟡 Quando der vontade
+- **Objetivo:** Me divertir programando
 
-### 🎨 [Projeto Futuro]
-> *Ideias para projetos que quero desenvolver*
-- **Tecnologias:** A definir
-- **Status:** 🟠 Em planejamento
-- **Objetivo:** Praticar e aprender novas tecnologias
+### 🎨 [Ideia Futura]
+> *Coisas que parecem legais de testar*
+- **Tecnologias:** A descobrir
+- **Status:** 🟠 Na minha lista
+- **Objetivo:** Explorar e experimentar
 
-### 🔧 [Projeto de Estudo]
-> *Projetos para praticar conceitos*
-- **Tecnologias:** Várias (conforme estudo)
-- **Status:** 🟢 Em andamento
-- **Objetivo:** Consolidar conhecimentos
+### 🔧 [Experimento]
+> *Testando coisas que parecem interessantes*
+- **Tecnologias:** Várias (por curiosidade)
+- **Status:** 🟢 Quando tiver tempo
+- **Objetivo:** Ver se é legal mesmo
 
 ## 📈 Contribuições
 
@@ -92,12 +92,12 @@ Sou **Thomas L. França**, um entusiasta de tecnologia que está explorando o mu
 
 </div>
 
-## 🏆 Objetivos & Metas
+## 🏆 O que eu faço por aqui
 
-- 🎯 **Aprender** - Dominar os fundamentos da programação
-- 🚀 **Criar** - Desenvolver projetos pessoais interessantes
-- 📚 **Estudar** - Explorar novas tecnologias e frameworks
-- 🌟 **Crescer** - Evoluir como desenvolvedor
+- 🎯 **Me divirto** - Programo por hobby e curiosidade
+- 🚀 **Crio coisas** - Projetos legais que me interessam
+- 📚 **Experimento** - Testo tecnologias que parecem interessantes
+- 🌟 **Aprendo** - Sem pressão, só por prazer
 
 ## 📫 Como Me Encontrar
 
@@ -111,23 +111,23 @@ Sou **Thomas L. França**, um entusiasta de tecnologia que está explorando o mu
 
 </div>
 
-## 💡 Próximos Passos
+## 💡 Coisas que quero testar
 
-- [ ] Aprender HTML, CSS e JavaScript básico
-- [ ] Criar meu primeiro projeto web
-- [ ] Estudar React ou Vue.js
-- [ ] Aprender sobre Git e GitHub
-- [ ] Explorar diferentes áreas da programação
+- [ ] Criar um jogo simples
+- [ ] Fazer um bot para Discord/Telegram
+- [ ] Experimentar com APIs legais
+- [ ] Criar um site pessoal
+- [ ] Testar frameworks que parecem interessantes
 
-## 🤝 Aprendendo Juntos
+## 🤝 Vamos trocar ideias!
 
 Estou sempre aberto a:
-- 💡 **Sugestões** de recursos para aprender
-- 🎯 **Dicas** de como começar na programação
-- 📚 **Recomendações** de cursos e tutoriais
-- 🌟 **Mentoria** de desenvolvedores mais experientes
+- 💡 **Sugestões** de projetos legais para fazer
+- 🎯 **Dicas** de tecnologias interessantes
+- 📚 **Recomendações** de tutoriais divertidos
+- 🌟 **Conversas** sobre programação e tecnologia
 
-Se você tem alguma sugestão ou quer compartilhar conhecimento, fique à vontade!
+Se você tem alguma ideia legal ou quer conversar sobre código, fique à vontade!
 
 ## 📄 Licença
 
