@@ -4,17 +4,111 @@
   <meta charset="UTF-8">
   <title>Enciclopédia de Aviões Comerciais</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
-    h1, h2, h3 { color: #1a237e; }
-    nav { margin-bottom: 2em; }
-    nav a { margin-right: 1em; color: #1565c0; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    section { margin-bottom: 3em; background: #fff; padding: 1.5em; border-radius: 8px; box-shadow: 0 2px 8px #0001; }
-    table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
-    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-    th { background: #e3eafc; }
-    img { max-width: 350px; border-radius: 6px; box-shadow: 0 1px 4px #0002; }
-    .fabricante { font-size: 1.3em; margin-top: 1.5em; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(120deg, #e3f0ff 0%, #f9f9f9 100%);
+      min-height: 100vh;
+    }
+    h1, h2, h3 {
+      color: #1a237e;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    nav {
+      margin: 0 auto 2em auto;
+      padding: 1em 0;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 2px 12px #0001;
+      max-width: 900px;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+    }
+    nav a {
+      color: #1976d2;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: #0d47a1;
+      text-decoration: underline;
+    }
+    section {
+      margin: 2em auto 3em auto;
+      background: #fff;
+      padding: 2em 2.5em;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px #0002;
+      max-width: 900px;
+      transition: box-shadow 0.2s;
+    }
+    section:hover {
+      box-shadow: 0 8px 32px #0003;
+    }
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      width: 100%;
+      margin-bottom: 1.5em;
+      background: #f6faff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 1px 6px #0001;
+    }
+    th, td {
+      border: none;
+      padding: 12px 16px;
+      text-align: left;
+    }
+    th {
+      background: #e3eafc;
+      font-weight: 600;
+      color: #1a237e;
+    }
+    tr:not(:last-child) td {
+      border-bottom: 1px solid #e3eafc;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 14px;
+      box-shadow: 0 2px 12px #0002;
+      margin: 1.2em 0 1.5em 0;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      transition: transform 0.2s;
+    }
+    img:hover {
+      transform: scale(1.03) rotate(-1deg);
+      box-shadow: 0 6px 24px #0003;
+    }
+    ul {
+      margin: 0 0 1.5em 1.5em;
+      padding: 0;
+      color: #333;
+    }
+    footer {
+      margin-top: 3em;
+      color: #888;
+      font-size: 0.95em;
+      text-align: center;
+      padding: 2em 0 1em 0;
+      background: none;
+    }
+    @media (max-width: 600px) {
+      nav, section {
+        max-width: 98vw;
+        padding: 1em 0.5em;
+      }
+      table th, table td {
+        padding: 8px 6px;
+        font-size: 0.98em;
+      }
+    }
   </style>
 </head>
 <body>
@@ -287,7 +381,7 @@
     </ul>
   </section>
 
-  <footer style="margin-top:3em; color:#888; font-size:0.9em;">
+  <footer>
     Enciclopédia de Aviões Comerciais &copy; 2024
   </footer>
 </body>
