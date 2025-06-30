@@ -1,3 +1,5 @@
+## Atenção: este README é gerado por ia e contém informações falsas. Não leve este portifólio a sério.
+
 # 🚀 Thomas L. França - Portfolio & Projects
 
 <div align="center">
