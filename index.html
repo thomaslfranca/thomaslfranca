@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>   Coleção de Aviões</title>
+  <title>Coleção de Aviões</title>
   <style>
     body {
       font-family: 'Segoe UI', Arial, sans-serif;
@@ -10,12 +10,25 @@
       background: linear-gradient(120deg, #e3f0ff 0%, #f9f9f9 100%);
       min-height: 100vh;
     }
-    h1, h2, h3 {
+    h1 {
+      color: #0d47a1;
+      font-size: 2.7em;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-align: center;
+      margin-top: 1.2em;
+      margin-bottom: 0.2em;
+      text-shadow: 0 2px 12px #b3c6ff44, 0 1px 0 #fff;
+    }
+    h2, h3 {
       color: #1a237e;
       font-weight: 700;
       letter-spacing: 1px;
     }
     nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
       margin: 0 auto 2em auto;
       padding: 1em 0;
       background: #fff;
@@ -25,6 +38,7 @@
       display: flex;
       justify-content: center;
       gap: 2em;
+      transition: box-shadow 0.2s;
     }
     nav a {
       color: #1976d2;
@@ -142,7 +156,7 @@
       }
     }
   </script>
-  <h1>Enciclopédia de Aviões Comerciais</h1>
+  <h1>Coleção de Aviões</h1>
   <nav>
     <a href="#boeing">Boeing</a>
     <a href="#airbus">Airbus</a>
