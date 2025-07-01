@@ -127,6 +127,30 @@
     .nav-spacer {
       height: 80px;
     }
+    /* Botão flutuante para voltar ao início */
+    #back-to-start {
+      position: fixed;
+      bottom: 32px;
+      right: 32px;
+      z-index: 2000;
+      background: #1976d2;
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 56px;
+      height: 56px;
+      box-shadow: 0 4px 16px #0002;
+      font-size: 2em;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, box-shadow 0.2s;
+    }
+    #back-to-start:hover {
+      background: #0d47a1;
+      box-shadow: 0 8px 32px #0003;
+    }
   </style>
 </head>
 <body>
@@ -158,6 +182,10 @@
       if (el) {
         el.scrollIntoView({behavior:'smooth'});
       }
+    }
+    function showStartMenu() {
+      document.getElementById('start-menu').style.display = 'flex';
+      window.scrollTo({top: 0, behavior: 'smooth'});
     }
   </script>
   <h1>Coleção de Aviões</h1>
@@ -736,12 +764,12 @@
     <div style="display: flex; flex-wrap: wrap; gap: 2em; justify-content: center; margin-bottom:2em;">
       <div style="flex:1 1 220px; min-width:220px; max-width:260px; text-align:center;">
         <h4>MD-11 Passenger</h4>
-        <img src="imagens/mcdonnell_md11_2.jpg" alt="McDonnell Douglas MD-11 Passenger" style="max-width:100%; border-radius:12px; box-shadow:0 2px 8px #0002;">
+        <img src="imagens/mcdonnell_md11_1.jpg" alt="McDonnell Douglas MD-11 Passenger" style="max-width:100%; border-radius:12px; box-shadow:0 2px 8px #0002;">
         <p style="font-size:0.97em; color:#444;">Versão para passageiros.</p>
       </div>
       <div style="flex:1 1 220px; min-width:220px; max-width:260px; text-align:center;">
         <h4>MD-11F</h4>
-        <img src="imagens/mcdonnell_md11_3.jpg" alt="McDonnell Douglas MD-11F" style="max-width:100%; border-radius:12px; box-shadow:0 2px 8px #0002;">
+        <img src="imagens/mcdonnell_md11_2.jpg" alt="McDonnell Douglas MD-11F" style="max-width:100%; border-radius:12px; box-shadow:0 2px 8px #0002;">
         <p style="font-size:0.97em; color:#444;">Versão cargueira, muito utilizada até hoje.</p>
       </div>
     </div>
@@ -750,5 +778,6 @@
   <footer>
     Enciclopédia de Aviões Comerciais &copy; 2024
   </footer>
+  <button id="back-to-start" title="Voltar ao início" onclick="showStartMenu()">🏠</button>
 </body>
 </html> 
