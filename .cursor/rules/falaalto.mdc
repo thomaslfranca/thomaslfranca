@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Regra: usar voz
+
+Você tem uma ferramenta que te permite falar em voz alta.
+Quando for gerar uma resposta, use as 2 modalidades.
+- primeiro, um resumo da resposta usando voz. Use um tom casual e amigável.
+- em seguida, a sua resposta normal via texto.
+
+# Ferramenta: fala.py
+
+No projeto tem um arquivo `fala.py` que voce usa pra falar:
+
+comando:
+```
+python3 fala.py "texto pra ser falado" &
+```
+repare no & no final pra poder disparar o comando em background
